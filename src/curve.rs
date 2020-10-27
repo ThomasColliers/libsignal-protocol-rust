@@ -5,7 +5,7 @@
 // SPDX-License-Identifier: GPL-3.0-only
 //
 
-mod curve25519;
+pub mod curve25519;
 
 use crate::error::{Result, SignalProtocolError};
 
